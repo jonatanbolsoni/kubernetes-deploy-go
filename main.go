@@ -6,7 +6,7 @@ import (
 	"log"
 )
 
-const webContent = "surfonfire.shop:v99"
+const webContent = "surfonfire.shop:V10"
 
 func main() {
 	http.HandleFunc("/", helloHandler)
